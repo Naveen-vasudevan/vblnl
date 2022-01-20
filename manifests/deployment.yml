@@ -28,8 +28,6 @@ spec:
     - port: 80
     selector:
         app: naveenvasudevanaks
-    - port: 80 
-    selector:
-        app: naveenvasudevanaks
+    
           
 
