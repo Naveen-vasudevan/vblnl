@@ -17,11 +17,7 @@ spec:
           image: itcadmin.azurecr.io/naveenvasudevanaks
           ports:
           - containerPort: 80
-<<<<<<< HEAD
-
-=======
 ---       
->>>>>>> bfdd6819286de9d26a4c650caa80e254b712a40f
 apiVersion: v1
 kind: Service
 metadata:
@@ -29,14 +25,9 @@ metadata:
 spec:
     type: LoadBalancer
     ports:
-<<<<<<< HEAD
     - port: 80
     selector:
         app: naveenvasudevanaks
-
-=======
-    - port: 80 
-    selector:
-        app: naveenvasudevanaks
+    
           
->>>>>>> bfdd6819286de9d26a4c650caa80e254b712a40f
+
