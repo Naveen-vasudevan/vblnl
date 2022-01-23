@@ -17,6 +17,7 @@ spec:
           image: itcadmin.azurecr.io/naveenvasudevanaks
           ports:
           - containerPort: 80
+          imagePullPolicy: Always
 ---       
 apiVersion: v1
 kind: Service
