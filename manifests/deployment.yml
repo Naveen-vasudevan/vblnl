@@ -18,6 +18,9 @@ spec:
           ports:
           - containerPort: 80
           imagePullPolicy: Always
+      imagePullSecrets:
+       - name: acrdemo2ss-secret 
+       
 ---       
 apiVersion: v1
 kind: Service
